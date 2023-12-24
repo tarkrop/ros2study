@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/takrop/ros2_study/build/msg_package/libmsg_package__rosidl_typesupport_fastrtps_c.so" "TARGETS" "msg_package__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/takrop/ros2_study/build/msg_package/rosidl_generator_py/msg_package/libmsg_package__python.so" "TARGETS" "msg_package__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

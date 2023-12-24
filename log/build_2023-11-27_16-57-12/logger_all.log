@@ -1,0 +1,267 @@
+[1.187s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.187s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa0696c4d90>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa0696c4d90>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa069a21f10>)
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.233s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/takrop/ros2_study'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_assignment_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_assignment_pkg) by extension 'ignore'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_assignment_pkg) by extension 'ignore_ament_install'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_assignment_pkg) by extensions ['colcon_pkg']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_assignment_pkg) by extension 'colcon_pkg'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_assignment_pkg) by extensions ['colcon_meta']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_assignment_pkg) by extension 'colcon_meta'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_assignment_pkg) by extensions ['ros']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_assignment_pkg) by extension 'ros'
+[1.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/first_assignment_pkg' with type 'ros.ament_python' and name 'first_assignment_pkg'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_package) by extensions ['ignore', 'ignore_ament_install']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_package) by extension 'ignore'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_package) by extension 'ignore_ament_install'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_package) by extensions ['colcon_pkg']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_package) by extension 'colcon_pkg'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_package) by extensions ['colcon_meta']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_package) by extension 'colcon_meta'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_package) by extensions ['ros']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_package) by extension 'ros'
+[1.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_package' with type 'ros.ament_cmake' and name 'msg_package'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/second_assignment_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/second_assignment_pkg) by extension 'ignore'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/second_assignment_pkg) by extension 'ignore_ament_install'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/second_assignment_pkg) by extensions ['colcon_pkg']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/second_assignment_pkg) by extension 'colcon_pkg'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/second_assignment_pkg) by extensions ['colcon_meta']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/second_assignment_pkg) by extension 'colcon_meta'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/second_assignment_pkg) by extensions ['ros']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/second_assignment_pkg) by extension 'ros'
+[1.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/second_assignment_pkg' with type 'ros.ament_python' and name 'second_assignment_pkg'
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.376s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/takrop/ros2_study/install
+[1.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'first_assignment_pkg' build argument 'cmake_args' from command line to 'None'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'first_assignment_pkg' build argument 'cmake_target' from command line to 'None'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'first_assignment_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'first_assignment_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'first_assignment_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'first_assignment_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'first_assignment_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'first_assignment_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'first_assignment_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.462s] DEBUG:colcon.colcon_core.verb:Building package 'first_assignment_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/takrop/ros2_study/build/first_assignment_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/takrop/ros2_study/install/first_assignment_pkg', 'merge_install': False, 'path': '/home/takrop/ros2_study/src/first_assignment_pkg', 'symlink_install': True, 'test_result_base': None}
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_args' from command line to 'None'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_target' from command line to 'None'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.479s] Level 5:colcon.colcon_core.verb:set package 'msg_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.479s] DEBUG:colcon.colcon_core.verb:Building package 'msg_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/takrop/ros2_study/build/msg_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/takrop/ros2_study/install/msg_package', 'merge_install': False, 'path': '/home/takrop/ros2_study/src/msg_package', 'symlink_install': True, 'test_result_base': None}
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'second_assignment_pkg' build argument 'cmake_args' from command line to 'None'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'second_assignment_pkg' build argument 'cmake_target' from command line to 'None'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'second_assignment_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'second_assignment_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'second_assignment_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'second_assignment_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'second_assignment_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'second_assignment_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.495s] Level 5:colcon.colcon_core.verb:set package 'second_assignment_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.495s] DEBUG:colcon.colcon_core.verb:Building package 'second_assignment_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/takrop/ros2_study/build/second_assignment_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/takrop/ros2_study/install/second_assignment_pkg', 'merge_install': False, 'path': '/home/takrop/ros2_study/src/second_assignment_pkg', 'symlink_install': True, 'test_result_base': None}
+[1.516s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.535s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.535s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/takrop/ros2_study/src/first_assignment_pkg' with build type 'ament_python'
+[1.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_assignment_pkg', 'ament_prefix_path')
+[1.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/hook/ament_prefix_path.ps1'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/hook/ament_prefix_path.dsv'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/hook/ament_prefix_path.sh'
+[1.573s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.573s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.628s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/takrop/ros2_study/src/msg_package' with build type 'ament_cmake'
+[1.628s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/takrop/ros2_study/src/msg_package'
+[1.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.711s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/takrop/ros2_study/src/second_assignment_pkg' with build type 'ament_python'
+[1.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('second_assignment_pkg', 'ament_prefix_path')
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/hook/ament_prefix_path.ps1'
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/hook/ament_prefix_path.dsv'
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/hook/ament_prefix_path.sh'
+[1.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.921s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/takrop/ros2_study/src/first_assignment_pkg'
+[1.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.939s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/takrop/ros2_study/build/msg_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/takrop/ros2_study/build/msg_package -- -j12 -l12
+[2.114s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/takrop/ros2_study/src/second_assignment_pkg'
+[2.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/takrop/ros2_study/build/first_assignment_pkg': PYTHONPATH=/home/takrop/ros2_study/build/first_assignment_pkg/prefix_override:/home/takrop/ros2_study/install/first_assignment_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/takrop/ros2_study/build/first_assignment_pkg/build --no-deps install_data
+[2.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/takrop/ros2_study/build/second_assignment_pkg': PYTHONPATH=/home/takrop/ros2_study/build/second_assignment_pkg/prefix_override:/home/takrop/ros2_study/install/second_assignment_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/takrop/ros2_study/build/second_assignment_pkg/build --no-deps install_data
+[2.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_assignment_pkg', 'pythonpath_develop')
+[2.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/takrop/ros2_study/build/first_assignment_pkg' returned '0': PYTHONPATH=/home/takrop/ros2_study/build/first_assignment_pkg/prefix_override:/home/takrop/ros2_study/install/first_assignment_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/takrop/ros2_study/build/first_assignment_pkg/build --no-deps install_data
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/build/first_assignment_pkg/share/first_assignment_pkg/hook/pythonpath_develop.ps1'
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/build/first_assignment_pkg/share/first_assignment_pkg/hook/pythonpath_develop.dsv'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/build/first_assignment_pkg/share/first_assignment_pkg/hook/pythonpath_develop.sh'
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/first_assignment_pkg' for CMake module files
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/first_assignment_pkg' for CMake config files
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/first_assignment_pkg/lib'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/first_assignment_pkg/bin'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/first_assignment_pkg/lib/pkgconfig/first_assignment_pkg.pc'
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/first_assignment_pkg/lib/python3.8/site-packages'
+[2.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_assignment_pkg', 'pythonpath')
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/hook/pythonpath.ps1'
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/hook/pythonpath.dsv'
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/hook/pythonpath.sh'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/first_assignment_pkg/bin'
+[2.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(first_assignment_pkg)
+[2.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/package.ps1'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/package.dsv'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/package.sh'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/package.bash'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/first_assignment_pkg/share/first_assignment_pkg/package.zsh'
+[2.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/takrop/ros2_study/install/first_assignment_pkg/share/colcon-core/packages/first_assignment_pkg)
+[2.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('second_assignment_pkg', 'pythonpath_develop')
+[2.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/takrop/ros2_study/build/second_assignment_pkg' returned '0': PYTHONPATH=/home/takrop/ros2_study/build/second_assignment_pkg/prefix_override:/home/takrop/ros2_study/install/second_assignment_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/takrop/ros2_study/build/second_assignment_pkg/build --no-deps install_data
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/build/second_assignment_pkg/share/second_assignment_pkg/hook/pythonpath_develop.ps1'
+[2.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/build/second_assignment_pkg/share/second_assignment_pkg/hook/pythonpath_develop.dsv'
+[2.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/build/second_assignment_pkg/share/second_assignment_pkg/hook/pythonpath_develop.sh'
+[2.869s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/second_assignment_pkg' for CMake module files
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/second_assignment_pkg' for CMake config files
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/second_assignment_pkg/lib'
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/second_assignment_pkg/bin'
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/second_assignment_pkg/lib/pkgconfig/second_assignment_pkg.pc'
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/second_assignment_pkg/lib/python3.8/site-packages'
+[2.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('second_assignment_pkg', 'pythonpath')
+[2.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/hook/pythonpath.ps1'
+[2.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/hook/pythonpath.dsv'
+[2.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/hook/pythonpath.sh'
+[2.893s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/second_assignment_pkg/bin'
+[2.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(second_assignment_pkg)
+[2.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/package.ps1'
+[2.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/package.dsv'
+[2.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/package.sh'
+[2.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/package.bash'
+[2.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/second_assignment_pkg/share/second_assignment_pkg/package.zsh'
+[2.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/takrop/ros2_study/install/second_assignment_pkg/share/colcon-core/packages/second_assignment_pkg)
+[14.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/takrop/ros2_study/build/msg_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/takrop/ros2_study/build/msg_package -- -j12 -l12
+[14.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/takrop/ros2_study/build/msg_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/takrop/ros2_study/build/msg_package
+[14.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_package)
+[14.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/takrop/ros2_study/build/msg_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/takrop/ros2_study/build/msg_package
+[14.677s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package' for CMake module files
+[14.677s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package' for CMake config files
+[14.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_package', 'cmake_prefix_path')
+[14.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/cmake_prefix_path.ps1'
+[14.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/cmake_prefix_path.dsv'
+[14.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/cmake_prefix_path.sh'
+[14.696s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/lib'
+[14.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_package', 'ld_library_path_lib')
+[14.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/ld_library_path_lib.ps1'
+[14.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/ld_library_path_lib.dsv'
+[14.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/ld_library_path_lib.sh'
+[14.716s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/bin'
+[14.716s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/lib/pkgconfig/msg_package.pc'
+[14.716s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages'
+[14.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_package', 'pythonpath')
+[14.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/pythonpath.ps1'
+[14.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/pythonpath.dsv'
+[14.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/pythonpath.sh'
+[14.734s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/bin'
+[14.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.ps1'
+[14.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.dsv'
+[14.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.sh'
+[14.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.bash'
+[14.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.zsh'
+[14.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/takrop/ros2_study/install/msg_package/share/colcon-core/packages/msg_package)
+[14.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_package)
+[14.814s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package' for CMake module files
+[14.815s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package' for CMake config files
+[14.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_package', 'cmake_prefix_path')
+[14.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/cmake_prefix_path.ps1'
+[14.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/cmake_prefix_path.dsv'
+[14.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/cmake_prefix_path.sh'
+[14.842s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/lib'
+[14.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_package', 'ld_library_path_lib')
+[14.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/ld_library_path_lib.ps1'
+[14.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/ld_library_path_lib.dsv'
+[14.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/ld_library_path_lib.sh'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/bin'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/lib/pkgconfig/msg_package.pc'
+[14.860s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages'
+[14.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_package', 'pythonpath')
+[14.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/pythonpath.ps1'
+[14.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/pythonpath.dsv'
+[14.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/takrop/ros2_study/install/msg_package/share/msg_package/hook/pythonpath.sh'
+[14.878s] Level 1:colcon.colcon_core.environment:checking '/home/takrop/ros2_study/install/msg_package/bin'
+[14.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.ps1'
+[14.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.dsv'
+[14.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.sh'
+[14.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.bash'
+[14.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/takrop/ros2_study/install/msg_package/share/msg_package/package.zsh'
+[14.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/takrop/ros2_study/install/msg_package/share/colcon-core/packages/msg_package)
+[14.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.897s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.990s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.990s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.990s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.991s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.991s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[14.991s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/takrop/ros2_study/install/local_setup.ps1'
+[15.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/takrop/ros2_study/install/_local_setup_util_ps1.py'
+[15.013s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/takrop/ros2_study/install/setup.ps1'
+[15.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/takrop/ros2_study/install/local_setup.sh'
+[15.031s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/takrop/ros2_study/install/_local_setup_util_sh.py'
+[15.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/takrop/ros2_study/install/setup.sh'
+[15.049s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/takrop/ros2_study/install/local_setup.bash'
+[15.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/takrop/ros2_study/install/setup.bash'
+[15.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/takrop/ros2_study/install/local_setup.zsh'
+[15.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/takrop/ros2_study/install/setup.zsh'

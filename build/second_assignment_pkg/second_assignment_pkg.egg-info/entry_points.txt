@@ -1,0 +1,5 @@
+[console_scripts]
+enter_node = second_assignment_pkg.enter_node:main
+multiply_node = second_assignment_pkg.multiply_node:main
+sum_node = second_assignment_pkg.sum_node:main
+

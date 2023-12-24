@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.000378] (first_assignment_pkg) JobQueued: {'identifier': 'first_assignment_pkg', 'dependencies': OrderedDict()}
+[0.000419] (msg_package) JobQueued: {'identifier': 'msg_package', 'dependencies': OrderedDict()}
+[0.000432] (second_assignment_pkg) JobQueued: {'identifier': 'second_assignment_pkg', 'dependencies': OrderedDict()}
+[0.001007] (first_assignment_pkg) JobStarted: {'identifier': 'first_assignment_pkg'}
+[0.093968] (msg_package) JobStarted: {'identifier': 'msg_package'}
+[0.100118] (-) TimerEvent: {}
+[0.177371] (second_assignment_pkg) JobStarted: {'identifier': 'second_assignment_pkg'}
+[0.200595] (-) TimerEvent: {}
+[0.301007] (-) TimerEvent: {}
+[0.401525] (-) TimerEvent: {}
+[0.458439] (msg_package) JobProgress: {'identifier': 'msg_package', 'progress': 'cmake'}
+[0.459808] (msg_package) JobProgress: {'identifier': 'msg_package', 'progress': 'build'}
+[0.459858] (msg_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/takrop/ros2_study/build/msg_package', '--', '-j12', '-l12'], 'cwd': '/home/takrop/ros2_study/build/msg_package', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'takrop'), ('ROS_NAMESPACE', 'robot1'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/takrop/ros2_study/install/msg_package/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/takrop'), ('OLDPWD', '/home/takrop/ros2_study/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/takrop/robot_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/takrop/ros2_study/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'takrop'), ('NAME', 'DESKTOP-2JQOR2K'), ('WSL_INTEROP', '/run/WSL/617_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/takrop/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IncrediBuild:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Home/flutter/bin:/mnt/c/Users/Home/flutter/bin/tools/dart-sdk/bin:/mnt/c/Users/Home/AppData/Local/Android/Sdk:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Users/Home/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Home/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Home/AppData/Roaming/Pub/Cache/bin:/mnt/c/Users/Home/flutter/bin:/mnt/c/Users/Home/flutter/bin/tools/dart-sdk/bin:/mnt/c/Users/Home/.dotnet/tools:/mnt/c/Users/Home/AppData/Local/Android/Sdk:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Home/anaconda3/Library:/snap/bin'), ('WT_SESSION', '91e840e2-5448-4290-ace9-657775253ecf'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/msg_package:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/takrop/ros2_study/build/msg_package'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/takrop/ros2_study/build/second_assignment_pkg:/home/takrop/ros2_study/install/second_assignment_pkg/lib/python3.8/site-packages:/home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages:/home/takrop/ros2_study/build/first_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/takrop/ros2_study/install/msg_package:/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.501778] (-) TimerEvent: {}
+[0.602401] (-) TimerEvent: {}
+[0.664492] (msg_package) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.665377] (msg_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.665548] (msg_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.666399] (msg_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.666582] (msg_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.666709] (msg_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.666812] (msg_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.702562] (-) TimerEvent: {}
+[0.802890] (-) TimerEvent: {}
+[0.903219] (-) TimerEvent: {}
+[0.922543] (first_assignment_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/takrop/ros2_study/build/first_assignment_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/takrop/ros2_study/build/first_assignment_pkg', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'takrop', 'ROS_NAMESPACE': 'robot1', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/takrop/ros2_study/install/msg_package/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/takrop', 'OLDPWD': '/home/takrop/ros2_study/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', '_colcon_cd_root': '/home/takrop/robot_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/takrop/ros2_study/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'takrop', 'NAME': 'DESKTOP-2JQOR2K', 'WSL_INTEROP': '/run/WSL/617_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/takrop/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IncrediBuild:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Home/flutter/bin:/mnt/c/Users/Home/flutter/bin/tools/dart-sdk/bin:/mnt/c/Users/Home/AppData/Local/Android/Sdk:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Users/Home/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Home/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Home/AppData/Roaming/Pub/Cache/bin:/mnt/c/Users/Home/flutter/bin:/mnt/c/Users/Home/flutter/bin/tools/dart-sdk/bin:/mnt/c/Users/Home/.dotnet/tools:/mnt/c/Users/Home/AppData/Local/Android/Sdk:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Home/anaconda3/Library:/snap/bin', 'WT_SESSION': '91e840e2-5448-4290-ace9-657775253ecf', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/msg_package:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/takrop/ros2_study/build/first_assignment_pkg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/takrop/ros2_study/build/first_assignment_pkg/prefix_override:/home/takrop/ros2_study/install/first_assignment_pkg/lib/python3.8/site-packages:/home/takrop/ros2_study/build/second_assignment_pkg:/home/takrop/ros2_study/install/second_assignment_pkg/lib/python3.8/site-packages:/home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages:/home/takrop/ros2_study/build/first_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/takrop/ros2_study/install/msg_package', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.970344] (second_assignment_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/takrop/ros2_study/build/second_assignment_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/takrop/ros2_study/build/second_assignment_pkg', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'takrop', 'ROS_NAMESPACE': 'robot1', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/takrop/ros2_study/install/msg_package/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/takrop', 'OLDPWD': '/home/takrop/ros2_study/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', '_colcon_cd_root': '/home/takrop/robot_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/takrop/ros2_study/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'takrop', 'NAME': 'DESKTOP-2JQOR2K', 'WSL_INTEROP': '/run/WSL/617_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/takrop/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IncrediBuild:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Home/flutter/bin:/mnt/c/Users/Home/flutter/bin/tools/dart-sdk/bin:/mnt/c/Users/Home/AppData/Local/Android/Sdk:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Users/Home/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Home/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Home/AppData/Roaming/Pub/Cache/bin:/mnt/c/Users/Home/flutter/bin:/mnt/c/Users/Home/flutter/bin/tools/dart-sdk/bin:/mnt/c/Users/Home/.dotnet/tools:/mnt/c/Users/Home/AppData/Local/Android/Sdk:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Home/anaconda3/Library:/snap/bin', 'WT_SESSION': '91e840e2-5448-4290-ace9-657775253ecf', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/msg_package:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/takrop/ros2_study/build/second_assignment_pkg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/takrop/ros2_study/build/second_assignment_pkg/prefix_override:/home/takrop/ros2_study/install/second_assignment_pkg/lib/python3.8/site-packages:/home/takrop/ros2_study/build/second_assignment_pkg:/home/takrop/ros2_study/install/second_assignment_pkg/lib/python3.8/site-packages:/home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages:/home/takrop/ros2_study/build/first_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/takrop/ros2_study/install/msg_package', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.003342] (-) TimerEvent: {}
+[1.059506] (first_assignment_pkg) StdoutLine: {'line': b'running develop\n'}
+[1.103482] (-) TimerEvent: {}
+[1.118108] (second_assignment_pkg) StdoutLine: {'line': b'running develop\n'}
+[1.127026] (first_assignment_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.127469] (first_assignment_pkg) StdoutLine: {'line': b'writing first_assignment_pkg.egg-info/PKG-INFO\n'}
+[1.127589] (first_assignment_pkg) StdoutLine: {'line': b'writing dependency_links to first_assignment_pkg.egg-info/dependency_links.txt\n'}
+[1.127908] (first_assignment_pkg) StdoutLine: {'line': b'writing entry points to first_assignment_pkg.egg-info/entry_points.txt\n'}
+[1.127974] (first_assignment_pkg) StdoutLine: {'line': b'writing requirements to first_assignment_pkg.egg-info/requires.txt\n'}
+[1.128014] (first_assignment_pkg) StdoutLine: {'line': b'writing top-level names to first_assignment_pkg.egg-info/top_level.txt\n'}
+[1.147945] (first_assignment_pkg) StdoutLine: {'line': b"reading manifest file 'first_assignment_pkg.egg-info/SOURCES.txt'\n"}
+[1.148431] (first_assignment_pkg) StdoutLine: {'line': b"writing manifest file 'first_assignment_pkg.egg-info/SOURCES.txt'\n"}
+[1.167994] (first_assignment_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[1.168222] (first_assignment_pkg) StdoutLine: {'line': b'Creating /home/takrop/ros2_study/install/first_assignment_pkg/lib/python3.8/site-packages/first-assignment-pkg.egg-link (link to .)\n'}
+[1.168825] (first_assignment_pkg) StdoutLine: {'line': b'Installing enterID script to /home/takrop/ros2_study/install/first_assignment_pkg/lib/first_assignment_pkg\n'}
+[1.168975] (first_assignment_pkg) StdoutLine: {'line': b'Installing getID script to /home/takrop/ros2_study/install/first_assignment_pkg/lib/first_assignment_pkg\n'}
+[1.169134] (first_assignment_pkg) StdoutLine: {'line': b'\n'}
+[1.169192] (first_assignment_pkg) StdoutLine: {'line': b'Installed /home/takrop/ros2_study/build/first_assignment_pkg\n'}
+[1.169231] (first_assignment_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.190159] (first_assignment_pkg) CommandEnded: {'returncode': 0}
+[1.204200] (-) TimerEvent: {}
+[1.220408] (second_assignment_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.220637] (second_assignment_pkg) StdoutLine: {'line': b'writing second_assignment_pkg.egg-info/PKG-INFO\n'}
+[1.221126] (second_assignment_pkg) StdoutLine: {'line': b'writing dependency_links to second_assignment_pkg.egg-info/dependency_links.txt\n'}
+[1.221236] (second_assignment_pkg) StdoutLine: {'line': b'writing entry points to second_assignment_pkg.egg-info/entry_points.txt\n'}
+[1.221351] (second_assignment_pkg) StdoutLine: {'line': b'writing requirements to second_assignment_pkg.egg-info/requires.txt\n'}
+[1.221452] (second_assignment_pkg) StdoutLine: {'line': b'writing top-level names to second_assignment_pkg.egg-info/top_level.txt\n'}
+[1.242397] (second_assignment_pkg) StdoutLine: {'line': b"reading manifest file 'second_assignment_pkg.egg-info/SOURCES.txt'\n"}
+[1.243284] (second_assignment_pkg) StdoutLine: {'line': b"writing manifest file 'second_assignment_pkg.egg-info/SOURCES.txt'\n"}
+[1.266042] (second_assignment_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[1.266294] (second_assignment_pkg) StdoutLine: {'line': b'Creating /home/takrop/ros2_study/install/second_assignment_pkg/lib/python3.8/site-packages/second-assignment-pkg.egg-link (link to .)\n'}
+[1.266565] (second_assignment_pkg) StdoutLine: {'line': b'Installing enter_node script to /home/takrop/ros2_study/install/second_assignment_pkg/lib/second_assignment_pkg\n'}
+[1.266897] (second_assignment_pkg) StdoutLine: {'line': b'Installing multiply_node script to /home/takrop/ros2_study/install/second_assignment_pkg/lib/second_assignment_pkg\n'}
+[1.267019] (second_assignment_pkg) StdoutLine: {'line': b'Installing sum_node script to /home/takrop/ros2_study/install/second_assignment_pkg/lib/second_assignment_pkg\n'}
+[1.267320] (second_assignment_pkg) StdoutLine: {'line': b'\n'}
+[1.267457] (second_assignment_pkg) StdoutLine: {'line': b'Installed /home/takrop/ros2_study/build/second_assignment_pkg\n'}
+[1.267573] (second_assignment_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.291468] (first_assignment_pkg) JobEnded: {'identifier': 'first_assignment_pkg', 'rc': 0}
+[1.292768] (second_assignment_pkg) CommandEnded: {'returncode': 0}
+[1.304353] (-) TimerEvent: {}
+[1.379836] (second_assignment_pkg) JobEnded: {'identifier': 'second_assignment_pkg', 'rc': 0}
+[1.404469] (-) TimerEvent: {}
+[1.504801] (-) TimerEvent: {}
+[1.605149] (-) TimerEvent: {}
+[1.705557] (-) TimerEvent: {}
+[1.805928] (-) TimerEvent: {}
+[1.906194] (-) TimerEvent: {}
+[2.006480] (-) TimerEvent: {}
+[2.106767] (-) TimerEvent: {}
+[2.207071] (-) TimerEvent: {}
+[2.307398] (-) TimerEvent: {}
+[2.407656] (-) TimerEvent: {}
+[2.507945] (-) TimerEvent: {}
+[2.608223] (-) TimerEvent: {}
+[2.708501] (-) TimerEvent: {}
+[2.808776] (-) TimerEvent: {}
+[2.909111] (-) TimerEvent: {}
+[3.009393] (-) TimerEvent: {}
+[3.109724] (-) TimerEvent: {}
+[3.210007] (-) TimerEvent: {}
+[3.310298] (-) TimerEvent: {}
+[3.410563] (-) TimerEvent: {}
+[3.510831] (-) TimerEvent: {}
+[3.611100] (-) TimerEvent: {}
+[3.711377] (-) TimerEvent: {}
+[3.811637] (-) TimerEvent: {}
+[3.911907] (-) TimerEvent: {}
+[4.012195] (-) TimerEvent: {}
+[4.112484] (-) TimerEvent: {}
+[4.212751] (-) TimerEvent: {}
+[4.313037] (-) TimerEvent: {}
+[4.413309] (-) TimerEvent: {}
+[4.513581] (-) TimerEvent: {}
+[4.613860] (-) TimerEvent: {}
+[4.714153] (-) TimerEvent: {}
+[4.814485] (-) TimerEvent: {}
+[4.914783] (-) TimerEvent: {}
+[5.015091] (-) TimerEvent: {}
+[5.115431] (-) TimerEvent: {}
+[5.215757] (-) TimerEvent: {}
+[5.316062] (-) TimerEvent: {}
+[5.416332] (-) TimerEvent: {}
+[5.516633] (-) TimerEvent: {}
+[5.616972] (-) TimerEvent: {}
+[5.717468] (-) TimerEvent: {}
+[5.817843] (-) TimerEvent: {}
+[5.918111] (-) TimerEvent: {}
+[6.018381] (-) TimerEvent: {}
+[6.118698] (-) TimerEvent: {}
+[6.219033] (-) TimerEvent: {}
+[6.319299] (-) TimerEvent: {}
+[6.419568] (-) TimerEvent: {}
+[6.519840] (-) TimerEvent: {}
+[6.620111] (-) TimerEvent: {}
+[6.646043] (msg_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.676072] (msg_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.720356] (-) TimerEvent: {}
+[6.747142] (msg_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[6.820585] (-) TimerEvent: {}
+[6.920887] (-) TimerEvent: {}
+[7.021149] (-) TimerEvent: {}
+[7.121442] (-) TimerEvent: {}
+[7.221731] (-) TimerEvent: {}
+[7.322135] (-) TimerEvent: {}
+[7.422591] (-) TimerEvent: {}
+[7.522864] (-) TimerEvent: {}
+[7.623332] (-) TimerEvent: {}
+[7.723716] (-) TimerEvent: {}
+[7.824281] (-) TimerEvent: {}
+[7.924730] (-) TimerEvent: {}
+[8.025032] (-) TimerEvent: {}
+[8.125378] (-) TimerEvent: {}
+[8.225753] (-) TimerEvent: {}
+[8.326170] (-) TimerEvent: {}
+[8.426546] (-) TimerEvent: {}
+[8.526890] (-) TimerEvent: {}
+[8.627212] (-) TimerEvent: {}
+[8.727665] (-) TimerEvent: {}
+[8.827944] (-) TimerEvent: {}
+[8.928395] (-) TimerEvent: {}
+[9.028816] (-) TimerEvent: {}
+[9.129171] (-) TimerEvent: {}
+[9.229495] (-) TimerEvent: {}
+[9.329873] (-) TimerEvent: {}
+[9.430179] (-) TimerEvent: {}
+[9.530518] (-) TimerEvent: {}
+[9.630837] (-) TimerEvent: {}
+[9.731150] (-) TimerEvent: {}
+[9.831652] (-) TimerEvent: {}
+[9.932134] (-) TimerEvent: {}
+[10.032425] (-) TimerEvent: {}
+[10.132687] (-) TimerEvent: {}
+[10.232997] (-) TimerEvent: {}
+[10.333350] (-) TimerEvent: {}
+[10.433652] (-) TimerEvent: {}
+[10.533948] (-) TimerEvent: {}
+[10.634219] (-) TimerEvent: {}
+[10.734491] (-) TimerEvent: {}
+[10.834761] (-) TimerEvent: {}
+[10.935033] (-) TimerEvent: {}
+[11.035308] (-) TimerEvent: {}
+[11.135576] (-) TimerEvent: {}
+[11.235949] (-) TimerEvent: {}
+[11.336231] (-) TimerEvent: {}
+[11.436498] (-) TimerEvent: {}
+[11.536766] (-) TimerEvent: {}
+[11.637038] (-) TimerEvent: {}
+[11.737386] (-) TimerEvent: {}
+[11.837737] (-) TimerEvent: {}
+[11.938043] (-) TimerEvent: {}
+[12.038366] (-) TimerEvent: {}
+[12.138652] (-) TimerEvent: {}
+[12.238948] (-) TimerEvent: {}
+[12.339314] (-) TimerEvent: {}
+[12.439721] (-) TimerEvent: {}
+[12.539998] (-) TimerEvent: {}
+[12.640279] (-) TimerEvent: {}
+[12.740572] (-) TimerEvent: {}
+[12.840847] (-) TimerEvent: {}
+[12.858089] (msg_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.862395] (msg_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.881253] (msg_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[12.881448] (msg_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[12.898668] (msg_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.898781] (msg_package) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[12.898816] (msg_package) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[12.907275] (msg_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[12.913278] (msg_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.914129] (msg_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.914456] (msg_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.916907] (msg_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.931022] (msg_package) StdoutLine: {'line': b'-- Generating done\n'}
+[12.932762] (msg_package) StdoutLine: {'line': b'-- Build files have been written to: /home/takrop/ros2_study/build/msg_package\n'}
+[12.941007] (-) TimerEvent: {}
+[12.954077] (msg_package) StdoutLine: {'line': b'[  3%] Built target msg_package__cpp\n'}
+[12.954440] (msg_package) StdoutLine: {'line': b'[ 12%] Built target msg_package__rosidl_generator_c\n'}
+[12.966438] (msg_package) StdoutLine: {'line': b'[ 22%] Built target msg_package__rosidl_typesupport_cpp\n'}
+[12.966594] (msg_package) StdoutLine: {'line': b'[ 32%] Built target msg_package__rosidl_typesupport_introspection_cpp\n'}
+[12.968245] (msg_package) StdoutLine: {'line': b'[ 41%] Built target msg_package__rosidl_typesupport_fastrtps_cpp\n'}
+[12.979883] (msg_package) StdoutLine: {'line': b'[ 54%] Built target msg_package__rosidl_typesupport_c\n'}
+[12.980042] (msg_package) StdoutLine: {'line': b'[ 61%] Built target msg_package__rosidl_typesupport_introspection_c\n'}
+[12.983207] (msg_package) StdoutLine: {'line': b'[ 70%] Built target msg_package__rosidl_typesupport_fastrtps_c\n'}
+[12.994810] (msg_package) StdoutLine: {'line': b'[ 70%] Built target msg_package\n'}
+[13.005784] (msg_package) StdoutLine: {'line': b'[ 74%] Built target msg_package__py\n'}
+[13.019775] (msg_package) StdoutLine: {'line': b'[ 80%] Built target msg_package__python\n'}
+[13.034356] (msg_package) StdoutLine: {'line': b'[ 93%] Built target msg_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.034507] (msg_package) StdoutLine: {'line': b'[ 93%] Built target msg_package__rosidl_typesupport_c__pyext\n'}
+[13.034694] (msg_package) StdoutLine: {'line': b'[100%] Built target msg_package__rosidl_typesupport_introspection_c__pyext\n'}
+[13.041375] (msg_package) CommandEnded: {'returncode': 0}
+[13.043349] (-) TimerEvent: {}
+[13.069967] (msg_package) JobProgress: {'identifier': 'msg_package', 'progress': 'install'}
+[13.076099] (msg_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/takrop/ros2_study/build/msg_package'], 'cwd': '/home/takrop/ros2_study/build/msg_package', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'takrop'), ('ROS_NAMESPACE', 'robot1'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/takrop/ros2_study/install/msg_package/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/takrop'), ('OLDPWD', '/home/takrop/ros2_study/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/home/takrop/robot_ws'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/takrop/ros2_study/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'takrop'), ('NAME', 'DESKTOP-2JQOR2K'), ('WSL_INTEROP', '/run/WSL/617_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/takrop/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.1/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IncrediBuild:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Home/flutter/bin:/mnt/c/Users/Home/flutter/bin/tools/dart-sdk/bin:/mnt/c/Users/Home/AppData/Local/Android/Sdk:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/Users/Home/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Home/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Home/AppData/Roaming/Pub/Cache/bin:/mnt/c/Users/Home/flutter/bin:/mnt/c/Users/Home/flutter/bin/tools/dart-sdk/bin:/mnt/c/Users/Home/.dotnet/tools:/mnt/c/Users/Home/AppData/Local/Android/Sdk:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Home/anaconda3/Library:/snap/bin'), ('WT_SESSION', '91e840e2-5448-4290-ace9-657775253ecf'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/msg_package:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/takrop/ros2_study/build/msg_package'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/takrop/ros2_study/build/second_assignment_pkg:/home/takrop/ros2_study/install/second_assignment_pkg/lib/python3.8/site-packages:/home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages:/home/takrop/ros2_study/build/first_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/takrop/ros2_study/install/msg_package:/home/takrop/ros2_study/install/second_assignment_pkg:/home/takrop/ros2_study/install/first_assignment_pkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[13.081208] (msg_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.081587] (msg_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.081831] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/ament_index/resource_index/rosidl_interfaces/msg_package\n'}
+[13.082189] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__functions.h\n'}
+[13.082327] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__struct.h\n'}
+[13.082538] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__type_support.h\n'}
+[13.082726] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/num_list.h\n'}
+[13.082866] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.083017] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/environment/library_path.sh\n'}
+[13.083245] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/environment/library_path.dsv\n'}
+[13.083581] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__rosidl_typesupport_fastrtps_c.h\n'}
+[13.083714] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.084058] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_c.so\n'}
+[13.084408] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.084545] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.084865] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/lib/libmsg_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.085164] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__rosidl_typesupport_introspection_c.h\n'}
+[13.085296] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.085669] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__builder.hpp\n'}
+[13.085807] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__struct.hpp\n'}
+[13.086017] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__traits.hpp\n'}
+[13.086224] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__type_support.hpp\n'}
+[13.086758] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/num_list.hpp\n'}
+[13.086832] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.087088] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/include/msg_package/msg/detail/num_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.087167] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/environment/pythonpath.sh\n'}
+[13.087372] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/environment/pythonpath.dsv\n'}
+[13.087503] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages/msg_package/__init__.py\n'}
+[13.087945] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages/msg_package/msg/__init__.py\n'}
+[13.088002] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages/msg_package/msg/_num_list.py\n'}
+[13.088221] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.088451] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.088663] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages/msg_package/msg_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[13.088884] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/lib/libmsg_package__python.so\n'}
+[13.089108] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/msg/NumList.idl\n'}
+[13.089183] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/msg/NumList.msg\n'}
+[13.089281] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/ament_index/resource_index/package_run_dependencies/msg_package\n'}
+[13.089399] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/ament_index/resource_index/parent_prefix_path/msg_package\n'}
+[13.089596] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/environment/ament_prefix_path.sh\n'}
+[13.089694] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/environment/ament_prefix_path.dsv\n'}
+[13.089798] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/environment/path.sh\n'}
+[13.089938] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/environment/path.dsv\n'}
+[13.090072] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/local_setup.bash\n'}
+[13.090204] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/local_setup.sh\n'}
+[13.090332] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/local_setup.zsh\n'}
+[13.090457] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/local_setup.dsv\n'}
+[13.090566] (msg_package) StdoutLine: {'line': b'-- Symlinking: /home/takrop/ros2_study/install/msg_package/share/msg_package/package.dsv\n'}
+[13.095982] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/ament_index/resource_index/packages/msg_package\n'}
+[13.096194] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/rosidl_cmake-extras.cmake\n'}
+[13.096315] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.096362] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.096462] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.096873] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.097271] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.097465] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.097521] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_packageConfig.cmake\n'}
+[13.097815] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_packageConfig-version.cmake\n'}
+[13.097877] (msg_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/takrop/ros2_study/install/msg_package/share/msg_package/package.xml\n'}
+[13.098036] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/lib/libmsg_package__rosidl_generator_c.so\n'}
+[13.098277] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_c.so\n'}
+[13.098457] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/lib/libmsg_package__rosidl_typesupport_c.so\n'}
+[13.098567] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/lib/libmsg_package__rosidl_typesupport_introspection_cpp.so\n'}
+[13.098784] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/lib/libmsg_package__rosidl_typesupport_cpp.so\n'}
+[13.119357] (msg_package) StdoutLine: {'line': b"Compiling '/home/takrop/ros2_study/install/msg_package/lib/python3.8/site-packages/msg_package/__init__.py'...\n"}
+[13.122142] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_generator_cExport.cmake\n'}
+[13.122241] (msg_package) StdoutLine: {'line': b'-- Installing: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.122278] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.122309] (msg_package) StdoutLine: {'line': b'-- Installing: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.122476] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cExport.cmake\n'}
+[13.122569] (msg_package) StdoutLine: {'line': b'-- Installing: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.122741] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_generator_cppExport.cmake\n'}
+[13.122811] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.122899] (msg_package) StdoutLine: {'line': b'-- Installing: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.123087] (msg_package) StdoutLine: {'line': b'-- Up-to-date: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cppExport.cmake\n'}
+[13.123159] (msg_package) StdoutLine: {'line': b'-- Installing: /home/takrop/ros2_study/install/msg_package/share/msg_package/cmake/msg_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.124338] (msg_package) CommandEnded: {'returncode': 0}
+[13.143522] (-) TimerEvent: {}
+[13.243875] (-) TimerEvent: {}
+[13.344735] (-) TimerEvent: {}
+[13.361988] (msg_package) JobEnded: {'identifier': 'msg_package', 'rc': 0}
+[13.363011] (-) EventReactorShutdown: {}

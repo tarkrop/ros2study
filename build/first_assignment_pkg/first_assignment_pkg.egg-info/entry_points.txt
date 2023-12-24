@@ -1,0 +1,4 @@
+[console_scripts]
+enterID = first_assignment_pkg.enter_classID:main
+getID = first_assignment_pkg.get_classID:main
+
